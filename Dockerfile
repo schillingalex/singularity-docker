@@ -42,4 +42,3 @@ RUN mkdir -p /usr/local/var/singularity/mnt && \
 RUN apk del automake libtool m4 autoconf alpine-sdk linux-headers && \
     cp /usr/share/zoneinfo/UTC /etc/localtime
 
-ENTRYPOINT ["/usr/local/bin/singularity"]

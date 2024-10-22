@@ -50,4 +50,3 @@ RUN mkdir -p /usr/local/var/singularity/mnt && \
     make -C builddir && \
     make -C builddir install
 
-ENTRYPOINT ["/usr/local/bin/singularity"]
